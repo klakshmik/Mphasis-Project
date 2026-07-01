@@ -1,9 +1,10 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd">
-<suite name="Haila testing Suite">
+<suite name="mPhasis testing Suite">
     <test name="Regression test cases">
         <classes>
             <class name="org.mphasis.investors.InvestorsPageTest"/>
             <class name="org.mphasis.newsroom.NewsRoomPageTest"/>
+            <class name="org.mphasis.csr.CsrPageTest"/>
         </classes>
     </test>
 </suite>

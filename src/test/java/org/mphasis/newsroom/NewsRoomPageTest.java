@@ -6,7 +6,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class NewsRoomPageTest extends BaseTest {
-    @Test
+    @Test(priority = 1)
     public void selectNewsRoomPageTest() {
         NewsRoomPage newsRoomPage = PageFactory.initElements(driver, NewsRoomPage.class);
         newsRoomPage.selectNewsRoom();
