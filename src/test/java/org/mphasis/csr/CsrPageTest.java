@@ -5,8 +5,9 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class CsrPageTest extends BaseTest {
 
+
+public class CsrPageTest extends BaseTest {
     @Test
     public void selectCsrPageTest() {
         CsrPage csrPage = PageFactory.initElements(driver, CsrPage.class);

@@ -5,6 +5,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+
 public class InvestorsPageTest extends BaseTest {
     @Test(priority = 1)
     public void navigateToInvestorsPageTest() {

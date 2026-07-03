@@ -1,5 +1,9 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd">
 <suite name="mPhasis testing Suite">
+
+    <listeners>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+    </listeners>
     <test name="Regression test cases">
         <classes>
             <class name="org.mphasis.investors.InvestorsPageTest"/>

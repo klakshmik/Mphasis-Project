@@ -1,10 +1,12 @@
 package org.mphasis.base;
 
+import io.qameta.allure.testng.AllureTestNg;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Listeners;
 
+@Listeners({AllureTestNg.class})
 public class BaseTest {
     protected static WebDriver driver;
 
